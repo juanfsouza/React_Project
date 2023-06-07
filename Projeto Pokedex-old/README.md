@@ -1,5 +1,5 @@
 # Mais Uma Vez Praticando api agora fazendo algo que gostava muito XD
-## Foi Usado
+## Tools
 ```j
 ReactJs
 ApiPokedex https://pokeapi.co/
