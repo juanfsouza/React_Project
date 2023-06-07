@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.rock {
+  background-color: rgb(168, 85, 43);
+  background-image: url("./images/typerock.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.ghost {
+  background-color: rgb(210, 171, 247);
+  background-image: url("./images/typeghost.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.electric {
+  background-color: rgb(230, 226, 34);
+  background-image: url("./images/typeelectric.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.bug {
+  background-color: #92bb46;
+  background-image: url("./images/typebug.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.poison {
+  background-color: #b447df;
+  background-image: url("./images/typepoison.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.normal {
+  background-color: #e6e6e6;
+  background-image: url("./images/typenormal.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.fairy {
+  background-color: rgba(238, 155, 238, 0.863);
+  background-image: url("./images/typefairy.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.fire {
+  background-color: #e64949;
+  background-image: url("./images/typefire.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.grass {
+  background-color:#4ee24c;
+  background-image: url("./images/typeleaf.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.water {
+  background-color:#59b7ff;
+  background-image: url("./images/typewater.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.dragon {
+  background-color:#aca328;
+  background-image: url("./images/typedragon.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.ice {
+  background-color:#5be6ff;
+  background-image: url("./images/typeice.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.psychic {
+  background-color:#f56ffa;
+  background-image: url("./images/typepsychic.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.ground {
+  background-color:#c4743f;
+  background-image: url("./images/typeground.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+.fighting {
+  background-color:#cc501f;
+  background-image: url("./images/typefighting.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-blend-mode: overlay;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0 ;
+  margin: 0.3rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.4rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.150);  
+}
+
+h3 {
+  margin-bottom: 0.2rem;
+}
+
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255,255,255,0.3);
+}
+.thumb-container img {
+  width: 120px;
+  height: 120px;
+}
+.thumb-container small {
+  text-transform: capitalize;
+}
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: .5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+.load-more {
+  background: #f5f5f5 linear-gradient(#f5f5f5,#f1f1f1) repeat-x;
+  border-radius: 2px;
+  border: 1px solid #c6c6c6;
+  color: #444;
+  padding: 0.5rem 1.5rem;
+  min-width: 50%;
+  margin-top: 1rem;
+}
+
+.type {
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: 2px solid #444;
+}
