@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(44, 44, 44);
+    overflow: hidden;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cicle {
+    position: absolute;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+button { 
+    color: antiquewhite;
+    border-radius: 10%;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    background-color: rgb(77, 77, 77);
+    margin: 20px;
+    width: 80px;
+}
+
+button:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+button:disabled {
+    background-color: rgb(53, 53, 53);
+    color: gray;
+    border: 1px solid gray;
+}

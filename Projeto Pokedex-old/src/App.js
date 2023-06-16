@@ -22,6 +22,7 @@ const App = () => {
     createPokemonObject(data.results)
   }
 
+
  useEffect(() => {
   getAllPokemons()
  }, [9])

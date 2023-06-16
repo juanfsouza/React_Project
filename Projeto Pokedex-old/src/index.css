@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f7f7f7;
+  background-color: rgb(255, 251, 226);
+  -webkit-backdrop-filter: blur(13px);
 }
 
 code {
@@ -200,4 +201,13 @@ h3 {
 
 h1 {
   border-bottom: 2px solid #444;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(219, 219, 219, 0.557);
 }
