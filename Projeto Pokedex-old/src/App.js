@@ -3,7 +3,7 @@ import PokemonThumb from './components/PokemonThumb'
 
 const App = () => {
 
-   const[allPokemons, setAllPokemons] = useState([])
+   const [allPokemons, setAllPokemons] = useState([])
    const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=20')
 
   const getAllPokemons = async () => {
